@@ -1,9 +1,9 @@
 Circuit URL handler
 ==================
 
-This is proyect is about facilitating making calls from any phone number in Firefox or Thunderbird using [Circuit WebApp](https://eu.yourcircuit.com/). Usually, when you find a phone nunber it is just text that you will copy/paste into your calling system (Circuit in our case). If your are lucky it will appear as linkable phone number but there will not be an app knowing how to manage it. 
+This is project is about facilitating making calls from any phone number in Firefox or Thunderbird using [Circuit WebApp](https://eu.yourcircuit.com/). Usually, when you find a phone number it is just text that you will copy/paste into your calling system (Circuit in our case). If you are lucky it will appear as linkable phone number but there will not be an app knowing how to manage it. 
 
-**These proyect covers GNU/Linux use case, but Windows should have a similar way of adding handlers for
+**These project covers GNU/Linux use case, but Windows should have a similar way of adding handlers for
 your customs protocols**
 
 So you have a phone number as text:
@@ -14,16 +14,16 @@ And you want this:
 
 ![alt text](./pics/phone-link.png "Phone numbers is a link to make the call")
 
-Notice in the bottom part of the last picture that it is not only a link, it is a link with a "Circuit" protocol. We will use this protocol with an url handler to invoke the Circuit Web App. So we have 3 steps:
+Notice in the bottom part of the last picture that it is not only a link, it is a link with a "Circuit" protocol. We will use this protocol with a url handler to invoke the Circuit Web App. So we have 3 steps:
 
  1. Transform texts into links with a Circuit protocol
- 2. To add an url handler in your Linux system to hook this new protocol
+ 2. To add a url handler in your Linux system to hook this new protocol
  3. Lunch Google Chrome (recommende browser for this app), but could be other, to call this number.
  
 
 ## Transforming texts into links
 
-Using [telify addon](https://addons.mozilla.org/en-US/firefox/addon/telify/?src=search) is pretty easy to get what we want (Firefox): transform Text Phone Numbers into a Link with a Custom Protocol Ciruit.
+Using [telify addon](https://addons.mozilla.org/en-US/firefox/addon/telify/?src=search) is pretty easy to get what we want (Firefox): transform Text Phone Numbers into a Link with a Custom Protocol Circuit.
 
 You only have to configure the custom url mode of this addon to prefix the phone number with a new protocol called Circuit:
 ![pic1](./pics/telify-circuit-protocol.png)
