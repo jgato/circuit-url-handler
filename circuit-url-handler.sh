@@ -16,7 +16,7 @@ URI_PROTOCOL='phone:'
 
 
 case "$1" in 
-    phone:*|tel:*)
+    phone:*|tel:*|circuit:*)
             PHONE_NUMBER=`echo $1| cut -d':' -f 2`
             echo $PHONE_NUMBER 
             echo "$BROWSER_COMMAND $CIRCUIT_CALL_URL$PHONE_NUMBER" 
