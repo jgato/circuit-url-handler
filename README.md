@@ -8,11 +8,11 @@ your customs protocols**
 
 So you have a phone number as text:
 
-![alt text](./phone-no-link.png "Phone numbers as not linkable text")
+![alt text](./pics/phone-no-link.png "Phone numbers as not linkable text")
 
 And you want this:
 
-![alt text](./phone-link.png "Phone numbers is a link to make the call")
+![alt text](./pics/phone-link.png "Phone numbers is a link to make the call")
 
 Notice in the bottom part of the last picture that it is not only a link, it is a link with a "Circuit" protocol. We will use this protocol with an url handler to invoke the Circuit Web App. So we have 3 steps:
 
@@ -26,7 +26,7 @@ Notice in the bottom part of the last picture that it is not only a link, it is 
 Using [telify addon](https://addons.mozilla.org/en-US/firefox/addon/telify/?src=search) is pretty easy to get what we want (Firefox): transform Text Phone Numbers into a Link with a Custom Protocol Ciruit.
 
 You only have to configure the custom url mode of this addon to prefix the phone number with a new protocol called Circuit:
-![pic1](./telify-circuit-protocol.png)
+![pic1](./pics/telify-circuit-protocol.png)
 
 This addon will detect phone number as links, this works pretty well for example with google contacts, or others phones detected in a web page (or in Thunderbird). But even phone numbers that are not automatically detected can be used, you just need to select the phone number text and click with the second button of your mouse:
 
