@@ -84,7 +84,8 @@ And finally copy the script that make of bridge between the handler and chrome:
 $> sudo cp circuit-url-handler.sh /usr/bin/
 ```
 
-And thats all, maybe you will need to reboot your browser but the final result will be something like this:
+And thats all, maybe you will need to reboot your browser. Now you will be able to click on phone numbers that will be passed to Circuit Web App to make the call
+
 
 
 # License
